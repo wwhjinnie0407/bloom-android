@@ -19,6 +19,8 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Uri uri = Uri.parse(getString(R.string.bloom_url));
+        Uri asked = getIntent() != null ? getIntent().getData() : null;
+        if (asked != null && asked.toString().startsWith(getString(R.string.bloom_url))) uri = asked;
         try {
             CustomTabColorSchemeParams colors = new CustomTabColorSchemeParams.Builder()
                     .setToolbarColor(Color.parseColor("#2d4f86"))

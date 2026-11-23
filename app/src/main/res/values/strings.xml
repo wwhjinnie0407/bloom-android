@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Bloom</string>
     <string name="bloom_url">https://claude.ai/artifact/2LLcRkdRPWWepSqjRBErSW</string>
+    <string name="sc_write">Write entry</string>
+    <string name="sc_write_long">Write today\'s journal</string>
+    <string name="sc_habits">Habits</string>
+    <string name="sc_habits_long">Mark today\'s habits</string>
+    <string name="sc_tasks">Tasks</string>
+    <string name="sc_tasks_long">Today\'s tasks</string>
+    <string name="sc_sleep">Log sleep</string>
+    <string name="sc_sleep_long">Good morning / good night</string>
 </resources>
